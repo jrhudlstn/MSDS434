@@ -26,17 +26,4 @@ jobs:
       run: |
         make format
 
-  test:
-    name: Test - Unit & Integration
-    runs-on: ubuntu-18.04
-    
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: |
-        make install
-    - name: Lint with pylint
-      run: |
-        make lint
-
-  
+ 
