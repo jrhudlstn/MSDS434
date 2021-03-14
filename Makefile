@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C, W1203 application.py
+	pylint --disable=R,C, main.py
 
 All: install lint test
