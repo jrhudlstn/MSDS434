@@ -3,21 +3,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    html = "<h3> Prediction : From Google Pipelines (Continuous Delivery)</h3>"
+    html = "<h1> Prediction Birth Weights: Google Pipelines (Continuous Delivery)</h1><h3> Course MSDS434 Final Project</h3>"
     return html.format(format)
 
-#!/usr/bin/env python
-
-import webapp2
-
-class MainHandler(webapp2.RequestHandler):
-    def get(self):
-        self.response.write('I update automatically!')
-
-app = webapp2.WSGIApplication([
-    ('/', MainHandler)
-], debug=True)
-
-
+# https://msds434-webapp.uc.r.appspot.com
 if __name__ == "__main__":
     app.run(host='localhost', port=8080, debug=True)
+
+

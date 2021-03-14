@@ -17,9 +17,8 @@ matplotlib
 awscli
 streamlit
 Image
+WebOb
+Paste
+webapp2
 
-
-BeautifulSoup
 requests
-json
-time
