@@ -11,14 +11,6 @@ pytest-cov==2.11.1
 dash
 numpy
 statsmodels
-boto3
 plotly
 matplotlib
-awscli
-streamlit
-Image
-WebOb
-Paste
-webapp2
-
 requests
