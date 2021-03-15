@@ -25,7 +25,10 @@ WHERE NOT uniqueID IN (
   SELECT DISTINCT uniqueID FROM `cbergman.germanCreditData.testData`
 );
 
-2. The tables are uploaed BigQuery and R-code, R-Studio was used to do EDA on the sets and the results are in in the next figure below
+2. The tables are uploaed BigQuery and R-code, R-Studio was used to do EDA on the sets and the results are in in the next figure below![image](https://user-images.githubusercontent.com/6859309/111098761-26b16e80-8512-11eb-8413-b1eb2a524244.png)
+
+3. ...
+4. ...
 
 ![image](https://user-images.githubusercontent.com/6859309/111098657-f79afd00-8511-11eb-89bc-d509f5b9fdfd.png)
 
