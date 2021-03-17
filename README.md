@@ -1,3 +1,4 @@
+this project began at https://github.com/jrhudlstn/MSDS434_WebApp circleCI. git Actions
 # MSDS434
 MSDS434 course assignment
 The data set comes from Googles BigQuery data sets https://cloud.google.com/bigquery/public-data/ and is uploaded to the Google Cloud Storage where the data is manipulated with SQL in Google BigQuery for predictions. The data set is entitled German Credit Data. This is to predict fraud in an application process. 
